@@ -27,7 +27,7 @@ a{
     justify-content: center;
 
     .logo {
-      width: 10rem;
+      width: 13rem;
       padding-left: 10px;
       padding-right: 10px;
     }
@@ -46,6 +46,7 @@ a{
     margin-top: 0.5rem;
     font-weight: 500;
     text-decoration:solid;
+    font-size: 1.1rem;
    
     }
 
@@ -63,20 +64,23 @@ a{
   .h1 {
     color: black !important;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 10px;
   }
 
   .h2 {
     color: black !important;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 10px;
   }
 
+  .texto{
+    font-size: 1.2rem;
+  }
 
   .mp{
-    height: 4rem;
+    height: 5rem;
   }
 
 }
