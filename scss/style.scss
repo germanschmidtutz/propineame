@@ -1,0 +1,82 @@
+// generales de todo
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+.fuenteGeneral {
+  color: black ;
+  font-family: "Itim", cursive;
+  text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+// inicio cel
+
+@media only screen and (max-width: 991px) {
+  // generales cel
+
+  .espacioArriba {
+    margin-top: 5vh;
+  }
+
+  // navbar
+
+  .divFoto {
+    display: flex;
+    justify-content: center;
+
+    .logo {
+      width: 10rem;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
+
+    .navbar {
+    background-color: white;
+    color: black;
+    display: block;
+  
+    }
+
+
+    .navlink {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 500;
+    text-decoration:solid;
+   
+    }
+
+    mark{
+        background-color: rgb(0, 0, 0);
+        color: white !important;
+    }
+
+
+
+
+
+  // index.html
+
+  .h1 {
+    color: black !important;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .h2 {
+    color: black !important;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+
+
+  .mp{
+    height: 4rem;
+  }
+
+}
