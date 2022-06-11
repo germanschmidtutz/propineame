@@ -46,13 +46,6 @@ body {
     padding-right: 10px;
   }
 
-  .navbar {
-    background-color: white;
-    color: black;
-    display: block;
-    width: 100%;
-  }
-
   .navlink {
     text-align: center;
     margin-top: 0.5rem;
